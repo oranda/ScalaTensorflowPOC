@@ -1,0 +1,16 @@
+# IntelliJ
+/.idea/
+*.iml
+
+# sbt generated
+/project/target/
+/target/
+
+# serialized data from the program
+/model/**
+
+# Mac files
+.DS_Store
+
+# Java class files
+*.class
