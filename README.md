@@ -12,6 +12,11 @@ I wrote a simple version for this project, not a CNN version like the one provid
 
 This main code of this project is easy to browse: [MNISTSimple.scala](src/main/scala/com/oranda/tensorflow/MNISTSimple.scala).
 
+tensorflow_scala is packaged as fat jars in the `lib` directory. Version 0.4.2 is used. I 
+modified the code slightly, fixing/removing outdated dependencies, allowing the saving of 
+checkpoint state directly from external code, and adding an assembly.sbt file for fat jar 
+generation.
+
 Installation
 ============
 
